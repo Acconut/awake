@@ -1,0 +1,13 @@
+{
+    "useTabChar": false,
+    "spaceUnits": 4,
+    "path": {
+        "Makefile": {
+            "useTabChar": true,
+            "tabSize": 4
+        },
+        "package.json": {
+            "spaceUnits": 2
+        }
+    }
+}

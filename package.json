@@ -1,0 +1,19 @@
+{
+  "name": "awake",
+  "version": "0.0.1",
+  "description": "File watcher for make",
+  "dependencies": {
+    "colors": "^0.6.2",
+    "commander": "^2.2.0",
+    "glob-watcher": "0.0.6",
+    "split": "^0.3.0"
+  },
+  "bin": {
+    "awake": "./lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Acconut/awake.git"
+  },
+  "license": "MIT"
+}
