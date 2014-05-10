@@ -41,8 +41,9 @@ awake --exclude hello.png
 Under the hood
 =====
 
-`awake` uses makes `--print-database` option to get a "compiled" version of the makefile which lists all targets and the files on which they depend.
+`awake` uses make's `--print-data-base` option to get a "compiled" version of the makefile which lists all targets and the files on which they depend.
 By default `awake` will run `make -pn` in your cwd but you can also read the output from a file:
 ```bash
+make -pn > make-pn.txt
 awake --make-database make-pn.txt
 ```
