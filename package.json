@@ -1,6 +1,6 @@
 {
   "name": "awake",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "File watcher for make",
   "dependencies": {
     "colors": "^0.6.2",
