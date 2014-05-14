@@ -1,7 +1,7 @@
 awake
 =====
 
-... is a file watcher which reruns your `make` targets when their dependent files change.
+... is a file watcher which reruns your `make` targets when their source files change.
 
 Installation
 =====
