@@ -20,7 +20,7 @@ Usage
 `awake` will search for a `Makefile` in your current working directory and read its targets from it.
 You can specify an alternative directory to look up using the `--directory` option:
 
-````bash
+```bash
 # Uses ./ as cwd
 awake
 
